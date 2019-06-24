@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/beige_crepe_bg"
+tools:context=".MenuActivity">
+
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="340dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="70dp"
+        android:text="What would you like to do?"
+        android:textColor="@color/textBlack"
+        android:textSize="28sp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/bestTime"
+        android:layout_width="162dp"
+        android:layout_height="61dp"
+        android:text="view best time"
+        android:background="@drawable/beige_crepe_bg"
+        android:layout_below="@id/head"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_marginTop="32dp"
+        android:id="@+id/play"
+        android:layout_width="162dp"
+        android:layout_height="61dp"
+        android:text="play"
+        android:background="@drawable/beige_crepe_bg"
+        android:layout_below="@id/bestTime"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_marginTop="32dp"
+        android:id="@+id/timeList"
+        android:layout_width="162dp"
+        android:layout_height="61dp"
+        android:text="view all times"
+        android:background="@drawable/beige_crepe_bg"
+        android:layout_below="@id/play"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

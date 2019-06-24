@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beige_crepe_bg"
+    tools:context=".FinalActivity">
+
+    <ImageView
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/back"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/backbutton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="94dp"
+        android:text="congratulations!"
+        android:textAllCaps="true"
+        android:textColor="@color/textBlack"
+        android:textSize="28sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your best time is"
+        android:textColor="@color/textBlack"
+        android:textSize="28sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textBlack"
+        android:textSize="28sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"/>
+
+</RelativeLayout>
